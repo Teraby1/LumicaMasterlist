@@ -19,6 +19,7 @@ let sheetPages = {
     prompts: "prompts",
     faq: "faq",
     staff: "mods",
+    test: "test",
 
 }
 
@@ -56,7 +57,7 @@ let options = {
         itemOrder: "asc",
 
         filterColumn: 'Design Type',
-        searchFilterParams: ['ID', 'Owner', 'Designer', 'Artist'],
+        searchFilterParams: ['ID', 'Owner', 'Designer', 'Subspecies', 'Mutations'],
         fauxFolderColumn: 'Species',
 
     },
@@ -78,7 +79,7 @@ let options = {
     },
 
 
-    /* Invetory
+    /* Inventory
     /* --------------------------------------------------------------- */
     inventory: {
 
@@ -87,8 +88,8 @@ let options = {
         logSheetPage: sheetPages.inventoryLog,
     
         itemAmount: 24,
-        sortTypes: ['Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-        
+        sortTypes: ['Currency', 'Medal', 'Material', 'Mutations', 'Misc'],
+
         searchFilterParams: ['Username'],
     
     },
@@ -119,7 +120,7 @@ let options = {
 
         filterColumn: 'Rarity',
         searchFilterParams: ['Trait'],
-        fauxFolderColumn: 'Type',
+        fauxFolderColumn: 'Rarity',
     
     },
 
@@ -142,7 +143,7 @@ let options = {
         itemAmount: 24,
         itemOrder: "asc",
     
-        searchFilterParams: ['Tags'],
+        searchFilterParams: ['Question'],
     
     },
 
